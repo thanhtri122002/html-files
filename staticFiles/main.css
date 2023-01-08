@@ -1,0 +1,101 @@
+.item1 { grid-area: header;
+	outline-style:outset ;
+	outline-color: grey;
+	
+	
+		}
+.item2 { grid-area: menu; 
+	}
+.item3 { grid-area: main; 
+	
+	
+}
+.item4 { grid-area: right; 
+	
+}
+.item5 { grid-area: footer; 
+	
+}
+.grid-container{
+	display: grid;
+	grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'footer footer footer footer footer footer';
+	gap: 10px;
+	
+	padding:10px;
+	
+}
+
+.grid-container > div {
+	
+	
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+  }
+
+
+body {
+	border: 2px solid black;
+  	padding: 25px;
+  	background: url("https://thienphatgiao.org/wp-content/uploads/2019/07/con-mat-thu-ba-third-eye-04.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	color: white;
+	height: 10px;
+	border-radius: 10px;
+}
+
+
+
+nav {
+
+	text-shadow: 2px 2px 2px red;
+	height: max-content;
+}
+
+.btn-effect{
+	border: 2px solid black;
+	padding : 10px;
+	outline-style:outset ;
+	color: whitesmoke;
+}
+
+
+.text-effect {
+	padding-left: 12px;
+	text-shadow: 2px 2px 2px red;
+}
+
+.hidden-component{
+	visibility: hidden;
+}
+
+.center-align  {
+	padding: 20% 0% 70% 5%;
+}
+
+img {
+	border:2px solid black;
+	outline-style:outset ;
+	outline-color: grey;
+	border-radius: 10%;
+}
+
+.img-align{
+	padding: 5% 0% 70% 5%;
+}
+
+
+.text-vertical{
+	writing-mode:vertical-lr;
+}
+
+.resize-element{
+	height: auto;
+
+}
+
+
